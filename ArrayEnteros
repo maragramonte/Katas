@@ -1,0 +1,12 @@
+public class ArrayEnteros {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4};
+        System.out.println(Kata.grow(numbers)); // Debería imprimir 24
+
+        int[] numbers2 = {5, 6, 7};
+        System.out.println(Kata.grow(numbers2)); // Debería imprimir 210
+
+        int[] numbers3 = {1, -1, 2};
+        System.out.println(Kata.grow(numbers3)); // Debería imprimir -2
+    }
+}
